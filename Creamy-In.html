@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>creamyinn</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("Op.jpg");
+  min-height: 90%;
+}
+</style>
+</head>
+<body>
+
+
+<div class="top">
+  <div class="CI-bar CI-xlarge CI-black CI-opacity CI-hover-opacity-off" id="myNavbar">
+    <a href="#" class="CI-bar-item CI-button">HOME</a>
+    <a href="#menu" class="CI-bar-item CI-button">MENU</a>
+    <a href="#about" class="CI-bar-item CI-button">ABOUT</a>
+    <a href="#myMap" class="CI-bar-item CI-button">CONTACT</a>
+  </div>
+</div>
+  
+
+<header class="bgimg CI-display-container CI-grayscale-min" id="home">
+  <div class="CI-display-bottomleft CI-padding">
+    <span class="CI-tag CI-xlarge">Open from 9am to 10pm</span>
+  </div>
+  <div class="CI-display-middle CI-center">
+    <span class="CI-text-white CI-hide-small" style="font-size:100px">CREAMY IN<br></span>
+    <span class="CI-text-white CI-hide-large CI-hide-medium" style="font-size:60px"><b>thin<br></b></span>
+    <p><a href="#menu" class="CI-button CI-xxlarge CI-black">Let me see the menu</a></p>
+  </div>
+</header>
+
+
+<div class="CI-container CI-black CI-padding-64 CI-xxlarge" id="menu">
+  <div class="CI-content">
+  
+    <h1 class="CI-center CI-jumbo" style="margin-bottom:64px">THE MENU</h1>
+    <div class="CI-row CI-center CI-border CI-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'SHAKES');" id="myLink">
+        <div class="CI-col s4 tablink CI-padding-large CI-hover-red">SHAKES</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'ICE CREAMS');">
+        <div class="CI-col s4 tablink CI-padding-large CI-hover-red">ICE CREAMS</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'COFFEE');">
+        <div class="CI-col s4 tablink CI-padding-large CI-hover-red">COFFEE</div>
+      </a>
+    </div>
+
+    <div id="SHAKES" class="CI-container menu CI-padding-32 CI-white">
+      <h1><b>BANANA SHAKE</b> <span class="CI-right CI-tag CI-dark-grey CI-round">RS.70</span></h1>
+      <p class="CI-text-grey">Fresh Bananna, fresh milk, fresh cream</p>
+      <hr>
+   
+      <h1><b>Strawberry</b> <span class="CI-right CI-tag CI-dark-grey CI-round">RS.100</span></h1>
+      <p class="CI-text-grey">Fresh strawberries,Fresh Milk,Fresh Cream</p>
+      <hr>
+      
+      <h1><b>OREO</b> <span class="CI-right CI-tag CI-dark-grey CI-round">RS.220</span></h1>
+      <p class="CI-text-grey">Fresh Brownies,Fresh chocolate, Fresh Milk, New oreo biscuits,Fresh cream</p>
+      <hr>
+
+      <h1><b>Nutella Shake</b> <span class="CI-tag CI-grey CI-round">NEW</span><span class="CI-right CI-tag CI-dark-grey CI-round">RS.180</span></h1></h1>
+      <p class="CI-text-grey">Nutella, Fresh Cream, fresh wipe cream</p>
+      <hr>
+
+      <h1><b>Blueberry Shake</b> <span class="CI-tag CI-red CI-round">Must Try!</span><span class="CI-right CI-tag CI-dark-grey CI-round">RS.150</span></h1>
+      <p class="CI-text-grey">Fresh blueberry, fresh cream, chocolate, fresh milk,</p>
+      <hr>
+
+      <h1><b>Mango Shake</b> <span class="CI-tag CI-grey CI-round"></span><span class="CI-right CI-tag CI-dark-grey CI-round">RS.100</span></h1>
+      <p class="CI-text-grey">Fresh Mango, Fresh Milk, Fresh Cream</p>
+    </div>
+
+    <div id="ICE CREAMS" class="CI-container menu CI-padding-32 CI-white">
+      <h1><b>World class chocolates</b> <span class="CI-tag CI-grey CI-round">Popular</span> <span class="CI-right CI-tag CI-dark-grey CI-round">Rs.280</span></h1>
+      <hr>
+   
+      <h1><b>Red velvet</b> <span class="CI-right CI-tag CI-dark-grey CI-round">Rs.180</span></h1>
+      <hr>
+      
+      <h1><b>fruit velvet</b> <span class="CI-right CI-tag CI-dark-grey CI-round">Rs.180</span></h1>
+      <hr>
+
+      <h1><b>Cotton Candy</b> <span class="CI-right CI-tag CI-dark-grey CI-round">Rs.250</span></h1>
+    </div>
+
+
+    <div id="COFFEE" class="CI-container menu CI-padding-32 CI-white">
+      <h1><b>Dark frappe</b> <span class="CI-tag CI-grey CI-round">Special</span><span class="CI-right CI-tag CI-dark-grey CI-round">Rs.350</span></h1>
+      <hr>
+   
+      <h1><b>Devils Own</b> <span class="CI-right CI-tag CI-dark-grey CI-round">Rs.350</span></h1>
+      <hr>
+      
+      <h1><b>Classical cold coffee</b> <span class="CI-right CI-tag CI-dark-grey CI-round">Rs.150</span></h1>
+      <hr>
+      
+      <h1><b>Tropical Ice berg</b> <span class="CI-right CI-tag CI-dark-grey CI-round">Rs.250</span></h1>
+    </div><br>
+
+  </div>
+</div>
+
+
+<div class="CI-container CI-padding-64 CI-red CI-grayscale CI-xlarge" id="about">
+  <div class="CI-content">
+    <h1 class="CI-center CI-jumbo" style="margin-bottom:64px">About</h1>
+    <p>Creamy In is an American multinational chain of ice cream and coffee specialty shop restaurants owned by Inspire Brands. Based in Canton, Massachusetts, Baskin-Robbins was founded in 1990 by Burt Baskin and Irv Robbins in Glendale, California.
+</p>
+    <p><strong>The Chef?</strong> Irv Robbins<img src="/CIimages/chef.jpg" style="width:150px" class="CI-circle CI-right" alt="Chef"></p>
+    <p>We are proud of our interiors.</p>
+    <img src="coffe.jpg" style="width:100%" class="CI-margin-top CI-margin-bottom" alt="Restaurant">
+    <h1><b>Opening Hours</b></h1>
+    
+    <div class="CI-row">
+      <div class="CI-col s6">
+        <p>Mon & Tue CLOSED</p>
+        <p>Wednesday 10.00 - 24.00</p>
+        <p>Thursday 10:00 - 24:00</p>
+      </div>
+      <div class="CI-col s6">
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday 10:00 - 23:00</p>
+        <p>Sunday Closed</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<img src="po.jpg" class="CI-image CI-greyscale" style="width:100%;" id="myMap">
+
+
+<div class="CI-container CI-padding-64 CI-blue-grey CI-grayscale-min CI-xlarge">
+  <div class="CI-content">
+    <h1 class="CI-center CI-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>Find us at some address at some place or call us at 05050515-122330</p>
+    <p><span class="CI-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p class="CI-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="CI-input CI-padding-16 CI-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="CI-input CI-padding-16 CI-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="CI-input CI-padding-16 CI-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="CI-input CI-padding-16 CI-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="CI-button CI-light-grey CI-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+
+<footer class="CI-center CI-black CI-padding-48 CI-xxlarge">
+  <p>Powered by <a href="https://creamyinn.com/" title="Creamy IN" target="_blank" class="CI-hover-text-green">CI</a></p>
+</footer>
+
+<script>
+
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" CI-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " CI-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
